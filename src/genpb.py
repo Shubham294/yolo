@@ -379,7 +379,7 @@ def main():
   demoCKPT2PB(dataParas[indexOfModel])
 def genpb():
   mc = kitti_tinyYolo_config()
-  model = TinyYolov3(mc)
+  model = TinyYolov2(mc)
   saver = tf.train.Saver(model.model_params)
   with tf.Session(config=tf.ConfigProto(allow_soft_placement=True)) as sess:
       ckpt = tf.train.latest_checkpoint("./")
