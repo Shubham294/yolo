@@ -1,0 +1,2233 @@
+/home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+Using TensorFlow backend.
+WARNING:tensorflow:From ../src/train.py:352: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From ../src/train.py:343: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+W0416 15:44:12.415065 140043217524544 deprecation_wrapper.py:119] From ../src/train.py:343: The name tf.gfile.Exists is deprecated. Please use tf.io.gfile.exists instead.
+
+WARNING:tensorflow:From ../src/train.py:347: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+W0416 15:44:12.415216 140043217524544 deprecation_wrapper.py:119] From ../src/train.py:347: The name tf.gfile.MakeDirs is deprecated. Please use tf.io.gfile.makedirs instead.
+
+WARNING:tensorflow:From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:96: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0416 15:44:12.424353 140043217524544 deprecation_wrapper.py:119] From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:96: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:132: The name tf.FIFOQueue is deprecated. Please use tf.queue.FIFOQueue instead.
+
+W0416 15:44:12.428759 140043217524544 deprecation_wrapper.py:119] From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:132: The name tf.FIFOQueue is deprecated. Please use tf.queue.FIFOQueue instead.
+
+WARNING:tensorflow:From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:151: batch (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.batch(batch_size)` (or `padded_batch(...)` if `dynamic_pad=True`).
+W0416 15:44:12.430629 140043217524544 deprecation.py:323] From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:151: batch (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.batch(batch_size)` (or `padded_batch(...)` if `dynamic_pad=True`).
+WARNING:tensorflow:From /home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorflow/python/training/input.py:753: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+W0416 15:44:12.432330 140043217524544 deprecation.py:323] From /home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorflow/python/training/input.py:753: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+WARNING:tensorflow:From /home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorflow/python/training/input.py:753: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+W0416 15:44:12.432971 140043217524544 deprecation.py:323] From /home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorflow/python/training/input.py:753: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+WARNING:tensorflow:From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nets/squeezeDet.py:82: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W0416 15:44:12.436275 140043217524544 deprecation_wrapper.py:119] From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nets/squeezeDet.py:82: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:665: calling TruncatedNormal.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0416 15:44:12.436582 140043217524544 deprecation.py:506] From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:665: calling TruncatedNormal.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:52: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+W0416 15:44:12.436769 140043217524544 deprecation_wrapper.py:119] From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:52: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:75: The name tf.add_to_collection is deprecated. Please use tf.compat.v1.add_to_collection instead.
+
+W0416 15:44:12.442199 140043217524544 deprecation_wrapper.py:119] From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:75: The name tf.add_to_collection is deprecated. Please use tf.compat.v1.add_to_collection instead.
+
+WARNING:tensorflow:From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:698: The name tf.summary.histogram is deprecated. Please use tf.compat.v1.summary.histogram instead.
+
+W0416 15:44:12.449864 140043217524544 deprecation_wrapper.py:119] From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:698: The name tf.summary.histogram is deprecated. Please use tf.compat.v1.summary.histogram instead.
+
+WARNING:tensorflow:From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:477: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0416 15:44:12.452120 140043217524544 deprecation.py:506] From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:477: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:755: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+W0416 15:44:12.497659 140043217524544 deprecation_wrapper.py:119] From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:755: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:922: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+W0416 15:44:13.304148 140043217524544 deprecation_wrapper.py:119] From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:922: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+INFO:tensorflow:Summary name mean iou is illegal; using mean_iou instead.
+I0416 15:44:13.600293 140043217524544 summary_op_util.py:66] Summary name mean iou is illegal; using mean_iou instead.
+WARNING:tensorflow:From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:417: The name tf.train.exponential_decay is deprecated. Please use tf.compat.v1.train.exponential_decay instead.
+
+W0416 15:44:13.606759 140043217524544 deprecation_wrapper.py:119] From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:417: The name tf.train.exponential_decay is deprecated. Please use tf.compat.v1.train.exponential_decay instead.
+
+WARNING:tensorflow:From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:427: The name tf.train.MomentumOptimizer is deprecated. Please use tf.compat.v1.train.MomentumOptimizer instead.
+
+W0416 15:44:13.623085 140043217524544 deprecation_wrapper.py:119] From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:427: The name tf.train.MomentumOptimizer is deprecated. Please use tf.compat.v1.train.MomentumOptimizer instead.
+
+WARNING:tensorflow:From /home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0416 15:44:13.774373 140043217524544 deprecation.py:323] From /home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:459: The name tf.summary.image is deprecated. Please use tf.compat.v1.summary.image instead.
+
+W0416 15:44:15.341751 140043217524544 deprecation_wrapper.py:119] From /home/shubhamjoshi/mobilenetV1_crosslink_nx_vnv/crosslink_humancnt_training/src/nn_skeleton.py:459: The name tf.summary.image is deprecated. Please use tf.compat.v1.summary.image instead.
+
+2021-04-16 15:44:16.515030: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2021-04-16 15:44:16.542146: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2899885000 Hz
+2021-04-16 15:44:16.542557: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x64011c0 executing computations on platform Host. Devices:
+2021-04-16 15:44:16.542578: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From ../src/train.py:241: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+W0416 15:44:16.542948 140043217524544 deprecation_wrapper.py:119] From ../src/train.py:241: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From ../src/train.py:242: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+W0416 15:44:16.636365 140043217524544 deprecation_wrapper.py:119] From ../src/train.py:242: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2021-04-16 15:44:16.722639: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+RefSwitch: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  iou (VariableV2) /device:GPU:0
+  iou/Assign (Assign) /device:GPU:0
+  iou/read (Identity) /device:GPU:0
+  IOU_1/Assign (Assign) /device:GPU:0
+  IOU_1/activation_summary/zero_fraction/cond/count_nonzero/NotEqual/Switch (RefSwitch) /device:GPU:0
+  IOU_1/activation_summary/zero_fraction/cond/count_nonzero_1/NotEqual/Switch (RefSwitch) /device:GPU:0
+  save/Assign_159 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.722774: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+QueueDequeueV2: CPU XLA_CPU 
+QueueEnqueueManyV2: CPU 
+FIFOQueueV2: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fifo_queue (FIFOQueueV2) /device:GPU:0
+  fifo_queue_EnqueueMany (QueueEnqueueManyV2) /device:GPU:0
+  fifo_queue_Dequeue (QueueDequeueV2) /device:GPU:0
+
+2021-04-16 15:44:16.722885: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+QueueSizeV2: CPU XLA_CPU 
+QueueDequeueManyV2: CPU 
+QueueCloseV2: CPU XLA_CPU 
+QueueEnqueueV2: CPU XLA_CPU 
+FIFOQueueV2: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  batch/fifo_queue (FIFOQueueV2) /device:GPU:0
+  batch/fifo_queue_enqueue (QueueEnqueueV2) /device:GPU:0
+  batch/fifo_queue_Close (QueueCloseV2) /device:GPU:0
+  batch/fifo_queue_Close_1 (QueueCloseV2) /device:GPU:0
+  batch/fifo_queue_Size (QueueSizeV2) /device:GPU:0
+  batch (QueueDequeueManyV2) /device:GPU:0
+
+2021-04-16 15:44:16.722987: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+ApplyMomentum: CPU 
+Add: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+TruncatedNormal: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire1/conv3x3/kernels/Initializer/truncated_normal/shape (Const) 
+  fire1/conv3x3/kernels/Initializer/truncated_normal/mean (Const) 
+  fire1/conv3x3/kernels/Initializer/truncated_normal/stddev (Const) 
+  fire1/conv3x3/kernels/Initializer/truncated_normal/TruncatedNormal (TruncatedNormal) 
+  fire1/conv3x3/kernels/Initializer/truncated_normal/mul (Mul) 
+  fire1/conv3x3/kernels/Initializer/truncated_normal (Add) 
+  fire1/conv3x3/kernels (VariableV2) /device:GPU:0
+  fire1/conv3x3/kernels/Assign (Assign) /device:GPU:0
+  fire1/conv3x3/kernels/read (Identity) /device:GPU:0
+  fire1/conv3x3/kernels/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire1/conv3x3/kernels/Momentum (VariableV2) /device:GPU:0
+  fire1/conv3x3/kernels/Momentum/Assign (Assign) /device:GPU:0
+  fire1/conv3x3/kernels/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire1/conv3x3/kernels/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_12 (Assign) /device:GPU:0
+  save/Assign_13 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.723086: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire1/bn/beta/Initializer/Const (Const) 
+  fire1/bn/beta (VariableV2) /device:GPU:0
+  fire1/bn/beta/Assign (Assign) /device:GPU:0
+  fire1/bn/beta/read (Identity) /device:GPU:0
+  fire1/bn/beta/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire1/bn/beta/Momentum (VariableV2) /device:GPU:0
+  fire1/bn/beta/Momentum/Assign (Assign) /device:GPU:0
+  fire1/bn/beta/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire1/bn/beta/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_2 (Assign) /device:GPU:0
+  save/Assign_3 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.723170: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire1/bn/gamma/Initializer/Const (Const) 
+  fire1/bn/gamma (VariableV2) /device:GPU:0
+  fire1/bn/gamma/Assign (Assign) /device:GPU:0
+  fire1/bn/gamma/read (Identity) /device:GPU:0
+  fire1/bn/gamma/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire1/bn/gamma/Momentum (VariableV2) /device:GPU:0
+  fire1/bn/gamma/Momentum/Assign (Assign) /device:GPU:0
+  fire1/bn/gamma/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire1/bn/gamma/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_8 (Assign) /device:GPU:0
+  save/Assign_9 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.723298: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire1/bn/moving_mean/Initializer/Const (Const) 
+  fire1/bn/moving_mean (VariableV2) /device:GPU:0
+  fire1/bn/moving_mean/Assign (Assign) /device:GPU:0
+  fire1/bn/moving_mean/read (Identity) /device:GPU:0
+  fire1/bn/fire1/bn/moving_mean/biased/Initializer/zeros (Const) /device:GPU:0
+  fire1/bn/fire1/bn/moving_mean/biased (VariableV2) /device:GPU:0
+  fire1/bn/fire1/bn/moving_mean/biased/Assign (Assign) /device:GPU:0
+  fire1/bn/fire1/bn/moving_mean/biased/read (Identity) /device:GPU:0
+  fire1/bn/fire1/bn/moving_mean/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire1/bn/fire1/bn/moving_mean/local_step (VariableV2) /device:GPU:0
+  fire1/bn/fire1/bn/moving_mean/local_step/Assign (Assign) /device:GPU:0
+  fire1/bn/fire1/bn/moving_mean/local_step/read (Identity) /device:GPU:0
+  fire1/bn/AssignMovingAvg/AssignSub (AssignSub) /device:GPU:0
+  fire1/bn/AssignMovingAvg/AssignAdd (AssignAdd) /device:GPU:0
+  fire1/bn/AssignMovingAvg (Assign) /device:GPU:0
+  save/Assign_4 (Assign) /device:GPU:0
+  save/Assign_5 (Assign) /device:GPU:0
+  save/Assign_10 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.723414: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire1/bn/moving_variance/Initializer/Const (Const) 
+  fire1/bn/moving_variance (VariableV2) /device:GPU:0
+  fire1/bn/moving_variance/Assign (Assign) /device:GPU:0
+  fire1/bn/moving_variance/read (Identity) /device:GPU:0
+  fire1/bn/fire1/bn/moving_variance/biased/Initializer/zeros (Const) /device:GPU:0
+  fire1/bn/fire1/bn/moving_variance/biased (VariableV2) /device:GPU:0
+  fire1/bn/fire1/bn/moving_variance/biased/Assign (Assign) /device:GPU:0
+  fire1/bn/fire1/bn/moving_variance/biased/read (Identity) /device:GPU:0
+  fire1/bn/fire1/bn/moving_variance/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire1/bn/fire1/bn/moving_variance/local_step (VariableV2) /device:GPU:0
+  fire1/bn/fire1/bn/moving_variance/local_step/Assign (Assign) /device:GPU:0
+  fire1/bn/fire1/bn/moving_variance/local_step/read (Identity) /device:GPU:0
+  fire1/bn/AssignMovingAvg_1/AssignSub (AssignSub) /device:GPU:0
+  fire1/bn/AssignMovingAvg_1/AssignAdd (AssignAdd) /device:GPU:0
+  fire1/bn/AssignMovingAvg_1 (Assign) /device:GPU:0
+  save/Assign_6 (Assign) /device:GPU:0
+  save/Assign_7 (Assign) /device:GPU:0
+  save/Assign_11 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.723554: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+ApplyMomentum: CPU 
+Add: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+TruncatedNormal: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire2/dw_conv3x3/kernels/Initializer/truncated_normal/shape (Const) 
+  fire2/dw_conv3x3/kernels/Initializer/truncated_normal/mean (Const) 
+  fire2/dw_conv3x3/kernels/Initializer/truncated_normal/stddev (Const) 
+  fire2/dw_conv3x3/kernels/Initializer/truncated_normal/TruncatedNormal (TruncatedNormal) 
+  fire2/dw_conv3x3/kernels/Initializer/truncated_normal/mul (Mul) 
+  fire2/dw_conv3x3/kernels/Initializer/truncated_normal (Add) 
+  fire2/dw_conv3x3/kernels (VariableV2) /device:GPU:0
+  fire2/dw_conv3x3/kernels/Assign (Assign) /device:GPU:0
+  fire2/dw_conv3x3/kernels/read (Identity) /device:GPU:0
+  fire2/dw_conv3x3/kernels/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire2/dw_conv3x3/kernels/Momentum (VariableV2) /device:GPU:0
+  fire2/dw_conv3x3/kernels/Momentum/Assign (Assign) /device:GPU:0
+  fire2/dw_conv3x3/kernels/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire2/dw_conv3x3/kernels/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_36 (Assign) /device:GPU:0
+  save/Assign_37 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.723693: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire2/dw_bn/beta/Initializer/Const (Const) 
+  fire2/dw_bn/beta (VariableV2) /device:GPU:0
+  fire2/dw_bn/beta/Assign (Assign) /device:GPU:0
+  fire2/dw_bn/beta/read (Identity) /device:GPU:0
+  fire2/dw_bn/beta/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire2/dw_bn/beta/Momentum (VariableV2) /device:GPU:0
+  fire2/dw_bn/beta/Momentum/Assign (Assign) /device:GPU:0
+  fire2/dw_bn/beta/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire2/dw_bn/beta/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_26 (Assign) /device:GPU:0
+  save/Assign_27 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.723812: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire2/dw_bn/gamma/Initializer/Const (Const) 
+  fire2/dw_bn/gamma (VariableV2) /device:GPU:0
+  fire2/dw_bn/gamma/Assign (Assign) /device:GPU:0
+  fire2/dw_bn/gamma/read (Identity) /device:GPU:0
+  fire2/dw_bn/gamma/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire2/dw_bn/gamma/Momentum (VariableV2) /device:GPU:0
+  fire2/dw_bn/gamma/Momentum/Assign (Assign) /device:GPU:0
+  fire2/dw_bn/gamma/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire2/dw_bn/gamma/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_32 (Assign) /device:GPU:0
+  save/Assign_33 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.723944: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire2/dw_bn/moving_mean/Initializer/Const (Const) 
+  fire2/dw_bn/moving_mean (VariableV2) /device:GPU:0
+  fire2/dw_bn/moving_mean/Assign (Assign) /device:GPU:0
+  fire2/dw_bn/moving_mean/read (Identity) /device:GPU:0
+  fire2/dw_bn/fire2/dw_bn/moving_mean/biased/Initializer/zeros (Const) /device:GPU:0
+  fire2/dw_bn/fire2/dw_bn/moving_mean/biased (VariableV2) /device:GPU:0
+  fire2/dw_bn/fire2/dw_bn/moving_mean/biased/Assign (Assign) /device:GPU:0
+  fire2/dw_bn/fire2/dw_bn/moving_mean/biased/read (Identity) /device:GPU:0
+  fire2/dw_bn/fire2/dw_bn/moving_mean/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire2/dw_bn/fire2/dw_bn/moving_mean/local_step (VariableV2) /device:GPU:0
+  fire2/dw_bn/fire2/dw_bn/moving_mean/local_step/Assign (Assign) /device:GPU:0
+  fire2/dw_bn/fire2/dw_bn/moving_mean/local_step/read (Identity) /device:GPU:0
+  fire2/dw_bn/AssignMovingAvg/AssignSub (AssignSub) /device:GPU:0
+  fire2/dw_bn/AssignMovingAvg/AssignAdd (AssignAdd) /device:GPU:0
+  fire2/dw_bn/AssignMovingAvg (Assign) /device:GPU:0
+  save/Assign_28 (Assign) /device:GPU:0
+  save/Assign_29 (Assign) /device:GPU:0
+  save/Assign_34 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.724064: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire2/dw_bn/moving_variance/Initializer/Const (Const) 
+  fire2/dw_bn/moving_variance (VariableV2) /device:GPU:0
+  fire2/dw_bn/moving_variance/Assign (Assign) /device:GPU:0
+  fire2/dw_bn/moving_variance/read (Identity) /device:GPU:0
+  fire2/dw_bn/fire2/dw_bn/moving_variance/biased/Initializer/zeros (Const) /device:GPU:0
+  fire2/dw_bn/fire2/dw_bn/moving_variance/biased (VariableV2) /device:GPU:0
+  fire2/dw_bn/fire2/dw_bn/moving_variance/biased/Assign (Assign) /device:GPU:0
+  fire2/dw_bn/fire2/dw_bn/moving_variance/biased/read (Identity) /device:GPU:0
+  fire2/dw_bn/fire2/dw_bn/moving_variance/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire2/dw_bn/fire2/dw_bn/moving_variance/local_step (VariableV2) /device:GPU:0
+  fire2/dw_bn/fire2/dw_bn/moving_variance/local_step/Assign (Assign) /device:GPU:0
+  fire2/dw_bn/fire2/dw_bn/moving_variance/local_step/read (Identity) /device:GPU:0
+  fire2/dw_bn/AssignMovingAvg_1/AssignSub (AssignSub) /device:GPU:0
+  fire2/dw_bn/AssignMovingAvg_1/AssignAdd (AssignAdd) /device:GPU:0
+  fire2/dw_bn/AssignMovingAvg_1 (Assign) /device:GPU:0
+  save/Assign_30 (Assign) /device:GPU:0
+  save/Assign_31 (Assign) /device:GPU:0
+  save/Assign_35 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.724193: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+ApplyMomentum: CPU 
+Add: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+TruncatedNormal: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire2/conv1x1/kernels/Initializer/truncated_normal/shape (Const) 
+  fire2/conv1x1/kernels/Initializer/truncated_normal/mean (Const) 
+  fire2/conv1x1/kernels/Initializer/truncated_normal/stddev (Const) 
+  fire2/conv1x1/kernels/Initializer/truncated_normal/TruncatedNormal (TruncatedNormal) 
+  fire2/conv1x1/kernels/Initializer/truncated_normal/mul (Mul) 
+  fire2/conv1x1/kernels/Initializer/truncated_normal (Add) 
+  fire2/conv1x1/kernels (VariableV2) /device:GPU:0
+  fire2/conv1x1/kernels/Assign (Assign) /device:GPU:0
+  fire2/conv1x1/kernels/read (Identity) /device:GPU:0
+  fire2/conv1x1/kernels/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire2/conv1x1/kernels/Momentum (VariableV2) /device:GPU:0
+  fire2/conv1x1/kernels/Momentum/Assign (Assign) /device:GPU:0
+  fire2/conv1x1/kernels/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire2/conv1x1/kernels/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_24 (Assign) /device:GPU:0
+  save/Assign_25 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.724319: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire2/1x1_bn/beta/Initializer/Const (Const) 
+  fire2/1x1_bn/beta (VariableV2) /device:GPU:0
+  fire2/1x1_bn/beta/Assign (Assign) /device:GPU:0
+  fire2/1x1_bn/beta/read (Identity) /device:GPU:0
+  fire2/1x1_bn/beta/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire2/1x1_bn/beta/Momentum (VariableV2) /device:GPU:0
+  fire2/1x1_bn/beta/Momentum/Assign (Assign) /device:GPU:0
+  fire2/1x1_bn/beta/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire2/1x1_bn/beta/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_14 (Assign) /device:GPU:0
+  save/Assign_15 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.724426: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire2/1x1_bn/gamma/Initializer/Const (Const) 
+  fire2/1x1_bn/gamma (VariableV2) /device:GPU:0
+  fire2/1x1_bn/gamma/Assign (Assign) /device:GPU:0
+  fire2/1x1_bn/gamma/read (Identity) /device:GPU:0
+  fire2/1x1_bn/gamma/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire2/1x1_bn/gamma/Momentum (VariableV2) /device:GPU:0
+  fire2/1x1_bn/gamma/Momentum/Assign (Assign) /device:GPU:0
+  fire2/1x1_bn/gamma/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire2/1x1_bn/gamma/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_20 (Assign) /device:GPU:0
+  save/Assign_21 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.724559: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire2/1x1_bn/moving_mean/Initializer/Const (Const) 
+  fire2/1x1_bn/moving_mean (VariableV2) /device:GPU:0
+  fire2/1x1_bn/moving_mean/Assign (Assign) /device:GPU:0
+  fire2/1x1_bn/moving_mean/read (Identity) /device:GPU:0
+  fire2/1x1_bn/fire2/1x1_bn/moving_mean/biased/Initializer/zeros (Const) /device:GPU:0
+  fire2/1x1_bn/fire2/1x1_bn/moving_mean/biased (VariableV2) /device:GPU:0
+  fire2/1x1_bn/fire2/1x1_bn/moving_mean/biased/Assign (Assign) /device:GPU:0
+  fire2/1x1_bn/fire2/1x1_bn/moving_mean/biased/read (Identity) /device:GPU:0
+  fire2/1x1_bn/fire2/1x1_bn/moving_mean/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire2/1x1_bn/fire2/1x1_bn/moving_mean/local_step (VariableV2) /device:GPU:0
+  fire2/1x1_bn/fire2/1x1_bn/moving_mean/local_step/Assign (Assign) /device:GPU:0
+  fire2/1x1_bn/fire2/1x1_bn/moving_mean/local_step/read (Identity) /device:GPU:0
+  fire2/1x1_bn/AssignMovingAvg/AssignSub (AssignSub) /device:GPU:0
+  fire2/1x1_bn/AssignMovingAvg/AssignAdd (AssignAdd) /device:GPU:0
+  fire2/1x1_bn/AssignMovingAvg (Assign) /device:GPU:0
+  save/Assign_16 (Assign) /device:GPU:0
+  save/Assign_17 (Assign) /device:GPU:0
+  save/Assign_22 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.724677: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire2/1x1_bn/moving_variance/Initializer/Const (Const) 
+  fire2/1x1_bn/moving_variance (VariableV2) /device:GPU:0
+  fire2/1x1_bn/moving_variance/Assign (Assign) /device:GPU:0
+  fire2/1x1_bn/moving_variance/read (Identity) /device:GPU:0
+  fire2/1x1_bn/fire2/1x1_bn/moving_variance/biased/Initializer/zeros (Const) /device:GPU:0
+  fire2/1x1_bn/fire2/1x1_bn/moving_variance/biased (VariableV2) /device:GPU:0
+  fire2/1x1_bn/fire2/1x1_bn/moving_variance/biased/Assign (Assign) /device:GPU:0
+  fire2/1x1_bn/fire2/1x1_bn/moving_variance/biased/read (Identity) /device:GPU:0
+  fire2/1x1_bn/fire2/1x1_bn/moving_variance/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire2/1x1_bn/fire2/1x1_bn/moving_variance/local_step (VariableV2) /device:GPU:0
+  fire2/1x1_bn/fire2/1x1_bn/moving_variance/local_step/Assign (Assign) /device:GPU:0
+  fire2/1x1_bn/fire2/1x1_bn/moving_variance/local_step/read (Identity) /device:GPU:0
+  fire2/1x1_bn/AssignMovingAvg_1/AssignSub (AssignSub) /device:GPU:0
+  fire2/1x1_bn/AssignMovingAvg_1/AssignAdd (AssignAdd) /device:GPU:0
+  fire2/1x1_bn/AssignMovingAvg_1 (Assign) /device:GPU:0
+  save/Assign_18 (Assign) /device:GPU:0
+  save/Assign_19 (Assign) /device:GPU:0
+  save/Assign_23 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.724842: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+ApplyMomentum: CPU 
+Add: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+TruncatedNormal: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire3/dw_conv3x3/kernels/Initializer/truncated_normal/shape (Const) 
+  fire3/dw_conv3x3/kernels/Initializer/truncated_normal/mean (Const) 
+  fire3/dw_conv3x3/kernels/Initializer/truncated_normal/stddev (Const) 
+  fire3/dw_conv3x3/kernels/Initializer/truncated_normal/TruncatedNormal (TruncatedNormal) 
+  fire3/dw_conv3x3/kernels/Initializer/truncated_normal/mul (Mul) 
+  fire3/dw_conv3x3/kernels/Initializer/truncated_normal (Add) 
+  fire3/dw_conv3x3/kernels (VariableV2) /device:GPU:0
+  fire3/dw_conv3x3/kernels/Assign (Assign) /device:GPU:0
+  fire3/dw_conv3x3/kernels/read (Identity) /device:GPU:0
+  fire3/dw_conv3x3/kernels/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire3/dw_conv3x3/kernels/Momentum (VariableV2) /device:GPU:0
+  fire3/dw_conv3x3/kernels/Momentum/Assign (Assign) /device:GPU:0
+  fire3/dw_conv3x3/kernels/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire3/dw_conv3x3/kernels/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_60 (Assign) /device:GPU:0
+  save/Assign_61 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.724958: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire3/dw_bn/beta/Initializer/Const (Const) 
+  fire3/dw_bn/beta (VariableV2) /device:GPU:0
+  fire3/dw_bn/beta/Assign (Assign) /device:GPU:0
+  fire3/dw_bn/beta/read (Identity) /device:GPU:0
+  fire3/dw_bn/beta/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire3/dw_bn/beta/Momentum (VariableV2) /device:GPU:0
+  fire3/dw_bn/beta/Momentum/Assign (Assign) /device:GPU:0
+  fire3/dw_bn/beta/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire3/dw_bn/beta/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_50 (Assign) /device:GPU:0
+  save/Assign_51 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.725061: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire3/dw_bn/gamma/Initializer/Const (Const) 
+  fire3/dw_bn/gamma (VariableV2) /device:GPU:0
+  fire3/dw_bn/gamma/Assign (Assign) /device:GPU:0
+  fire3/dw_bn/gamma/read (Identity) /device:GPU:0
+  fire3/dw_bn/gamma/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire3/dw_bn/gamma/Momentum (VariableV2) /device:GPU:0
+  fire3/dw_bn/gamma/Momentum/Assign (Assign) /device:GPU:0
+  fire3/dw_bn/gamma/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire3/dw_bn/gamma/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_56 (Assign) /device:GPU:0
+  save/Assign_57 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.725191: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire3/dw_bn/moving_mean/Initializer/Const (Const) 
+  fire3/dw_bn/moving_mean (VariableV2) /device:GPU:0
+  fire3/dw_bn/moving_mean/Assign (Assign) /device:GPU:0
+  fire3/dw_bn/moving_mean/read (Identity) /device:GPU:0
+  fire3/dw_bn/fire3/dw_bn/moving_mean/biased/Initializer/zeros (Const) /device:GPU:0
+  fire3/dw_bn/fire3/dw_bn/moving_mean/biased (VariableV2) /device:GPU:0
+  fire3/dw_bn/fire3/dw_bn/moving_mean/biased/Assign (Assign) /device:GPU:0
+  fire3/dw_bn/fire3/dw_bn/moving_mean/biased/read (Identity) /device:GPU:0
+  fire3/dw_bn/fire3/dw_bn/moving_mean/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire3/dw_bn/fire3/dw_bn/moving_mean/local_step (VariableV2) /device:GPU:0
+  fire3/dw_bn/fire3/dw_bn/moving_mean/local_step/Assign (Assign) /device:GPU:0
+  fire3/dw_bn/fire3/dw_bn/moving_mean/local_step/read (Identity) /device:GPU:0
+  fire3/dw_bn/AssignMovingAvg/AssignSub (AssignSub) /device:GPU:0
+  fire3/dw_bn/AssignMovingAvg/AssignAdd (AssignAdd) /device:GPU:0
+  fire3/dw_bn/AssignMovingAvg (Assign) /device:GPU:0
+  save/Assign_52 (Assign) /device:GPU:0
+  save/Assign_53 (Assign) /device:GPU:0
+  save/Assign_58 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.725312: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire3/dw_bn/moving_variance/Initializer/Const (Const) 
+  fire3/dw_bn/moving_variance (VariableV2) /device:GPU:0
+  fire3/dw_bn/moving_variance/Assign (Assign) /device:GPU:0
+  fire3/dw_bn/moving_variance/read (Identity) /device:GPU:0
+  fire3/dw_bn/fire3/dw_bn/moving_variance/biased/Initializer/zeros (Const) /device:GPU:0
+  fire3/dw_bn/fire3/dw_bn/moving_variance/biased (VariableV2) /device:GPU:0
+  fire3/dw_bn/fire3/dw_bn/moving_variance/biased/Assign (Assign) /device:GPU:0
+  fire3/dw_bn/fire3/dw_bn/moving_variance/biased/read (Identity) /device:GPU:0
+  fire3/dw_bn/fire3/dw_bn/moving_variance/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire3/dw_bn/fire3/dw_bn/moving_variance/local_step (VariableV2) /device:GPU:0
+  fire3/dw_bn/fire3/dw_bn/moving_variance/local_step/Assign (Assign) /device:GPU:0
+  fire3/dw_bn/fire3/dw_bn/moving_variance/local_step/read (Identity) /device:GPU:0
+  fire3/dw_bn/AssignMovingAvg_1/AssignSub (AssignSub) /device:GPU:0
+  fire3/dw_bn/AssignMovingAvg_1/AssignAdd (AssignAdd) /device:GPU:0
+  fire3/dw_bn/AssignMovingAvg_1 (Assign) /device:GPU:0
+  save/Assign_54 (Assign) /device:GPU:0
+  save/Assign_55 (Assign) /device:GPU:0
+  save/Assign_59 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.725468: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+ApplyMomentum: CPU 
+Add: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+TruncatedNormal: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire3/conv1x1/kernels/Initializer/truncated_normal/shape (Const) 
+  fire3/conv1x1/kernels/Initializer/truncated_normal/mean (Const) 
+  fire3/conv1x1/kernels/Initializer/truncated_normal/stddev (Const) 
+  fire3/conv1x1/kernels/Initializer/truncated_normal/TruncatedNormal (TruncatedNormal) 
+  fire3/conv1x1/kernels/Initializer/truncated_normal/mul (Mul) 
+  fire3/conv1x1/kernels/Initializer/truncated_normal (Add) 
+  fire3/conv1x1/kernels (VariableV2) /device:GPU:0
+  fire3/conv1x1/kernels/Assign (Assign) /device:GPU:0
+  fire3/conv1x1/kernels/read (Identity) /device:GPU:0
+  fire3/conv1x1/kernels/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire3/conv1x1/kernels/Momentum (VariableV2) /device:GPU:0
+  fire3/conv1x1/kernels/Momentum/Assign (Assign) /device:GPU:0
+  fire3/conv1x1/kernels/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire3/conv1x1/kernels/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_48 (Assign) /device:GPU:0
+  save/Assign_49 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.725606: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire3/1x1_bn/beta/Initializer/Const (Const) 
+  fire3/1x1_bn/beta (VariableV2) /device:GPU:0
+  fire3/1x1_bn/beta/Assign (Assign) /device:GPU:0
+  fire3/1x1_bn/beta/read (Identity) /device:GPU:0
+  fire3/1x1_bn/beta/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire3/1x1_bn/beta/Momentum (VariableV2) /device:GPU:0
+  fire3/1x1_bn/beta/Momentum/Assign (Assign) /device:GPU:0
+  fire3/1x1_bn/beta/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire3/1x1_bn/beta/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_38 (Assign) /device:GPU:0
+  save/Assign_39 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.725701: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire3/1x1_bn/gamma/Initializer/Const (Const) 
+  fire3/1x1_bn/gamma (VariableV2) /device:GPU:0
+  fire3/1x1_bn/gamma/Assign (Assign) /device:GPU:0
+  fire3/1x1_bn/gamma/read (Identity) /device:GPU:0
+  fire3/1x1_bn/gamma/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire3/1x1_bn/gamma/Momentum (VariableV2) /device:GPU:0
+  fire3/1x1_bn/gamma/Momentum/Assign (Assign) /device:GPU:0
+  fire3/1x1_bn/gamma/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire3/1x1_bn/gamma/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_44 (Assign) /device:GPU:0
+  save/Assign_45 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.725805: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire3/1x1_bn/moving_mean/Initializer/Const (Const) 
+  fire3/1x1_bn/moving_mean (VariableV2) /device:GPU:0
+  fire3/1x1_bn/moving_mean/Assign (Assign) /device:GPU:0
+  fire3/1x1_bn/moving_mean/read (Identity) /device:GPU:0
+  fire3/1x1_bn/fire3/1x1_bn/moving_mean/biased/Initializer/zeros (Const) /device:GPU:0
+  fire3/1x1_bn/fire3/1x1_bn/moving_mean/biased (VariableV2) /device:GPU:0
+  fire3/1x1_bn/fire3/1x1_bn/moving_mean/biased/Assign (Assign) /device:GPU:0
+  fire3/1x1_bn/fire3/1x1_bn/moving_mean/biased/read (Identity) /device:GPU:0
+  fire3/1x1_bn/fire3/1x1_bn/moving_mean/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire3/1x1_bn/fire3/1x1_bn/moving_mean/local_step (VariableV2) /device:GPU:0
+  fire3/1x1_bn/fire3/1x1_bn/moving_mean/local_step/Assign (Assign) /device:GPU:0
+  fire3/1x1_bn/fire3/1x1_bn/moving_mean/local_step/read (Identity) /device:GPU:0
+  fire3/1x1_bn/AssignMovingAvg/AssignSub (AssignSub) /device:GPU:0
+  fire3/1x1_bn/AssignMovingAvg/AssignAdd (AssignAdd) /device:GPU:0
+  fire3/1x1_bn/AssignMovingAvg (Assign) /device:GPU:0
+  save/Assign_40 (Assign) /device:GPU:0
+  save/Assign_41 (Assign) /device:GPU:0
+  save/Assign_46 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.725897: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire3/1x1_bn/moving_variance/Initializer/Const (Const) 
+  fire3/1x1_bn/moving_variance (VariableV2) /device:GPU:0
+  fire3/1x1_bn/moving_variance/Assign (Assign) /device:GPU:0
+  fire3/1x1_bn/moving_variance/read (Identity) /device:GPU:0
+  fire3/1x1_bn/fire3/1x1_bn/moving_variance/biased/Initializer/zeros (Const) /device:GPU:0
+  fire3/1x1_bn/fire3/1x1_bn/moving_variance/biased (VariableV2) /device:GPU:0
+  fire3/1x1_bn/fire3/1x1_bn/moving_variance/biased/Assign (Assign) /device:GPU:0
+  fire3/1x1_bn/fire3/1x1_bn/moving_variance/biased/read (Identity) /device:GPU:0
+  fire3/1x1_bn/fire3/1x1_bn/moving_variance/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire3/1x1_bn/fire3/1x1_bn/moving_variance/local_step (VariableV2) /device:GPU:0
+  fire3/1x1_bn/fire3/1x1_bn/moving_variance/local_step/Assign (Assign) /device:GPU:0
+  fire3/1x1_bn/fire3/1x1_bn/moving_variance/local_step/read (Identity) /device:GPU:0
+  fire3/1x1_bn/AssignMovingAvg_1/AssignSub (AssignSub) /device:GPU:0
+  fire3/1x1_bn/AssignMovingAvg_1/AssignAdd (AssignAdd) /device:GPU:0
+  fire3/1x1_bn/AssignMovingAvg_1 (Assign) /device:GPU:0
+  save/Assign_42 (Assign) /device:GPU:0
+  save/Assign_43 (Assign) /device:GPU:0
+  save/Assign_47 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.726035: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+ApplyMomentum: CPU 
+Add: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+TruncatedNormal: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire4/dw_conv3x3/kernels/Initializer/truncated_normal/shape (Const) 
+  fire4/dw_conv3x3/kernels/Initializer/truncated_normal/mean (Const) 
+  fire4/dw_conv3x3/kernels/Initializer/truncated_normal/stddev (Const) 
+  fire4/dw_conv3x3/kernels/Initializer/truncated_normal/TruncatedNormal (TruncatedNormal) 
+  fire4/dw_conv3x3/kernels/Initializer/truncated_normal/mul (Mul) 
+  fire4/dw_conv3x3/kernels/Initializer/truncated_normal (Add) 
+  fire4/dw_conv3x3/kernels (VariableV2) /device:GPU:0
+  fire4/dw_conv3x3/kernels/Assign (Assign) /device:GPU:0
+  fire4/dw_conv3x3/kernels/read (Identity) /device:GPU:0
+  fire4/dw_conv3x3/kernels/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire4/dw_conv3x3/kernels/Momentum (VariableV2) /device:GPU:0
+  fire4/dw_conv3x3/kernels/Momentum/Assign (Assign) /device:GPU:0
+  fire4/dw_conv3x3/kernels/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire4/dw_conv3x3/kernels/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_84 (Assign) /device:GPU:0
+  save/Assign_85 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.726147: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire4/dw_bn/beta/Initializer/Const (Const) 
+  fire4/dw_bn/beta (VariableV2) /device:GPU:0
+  fire4/dw_bn/beta/Assign (Assign) /device:GPU:0
+  fire4/dw_bn/beta/read (Identity) /device:GPU:0
+  fire4/dw_bn/beta/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire4/dw_bn/beta/Momentum (VariableV2) /device:GPU:0
+  fire4/dw_bn/beta/Momentum/Assign (Assign) /device:GPU:0
+  fire4/dw_bn/beta/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire4/dw_bn/beta/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_74 (Assign) /device:GPU:0
+  save/Assign_75 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.726272: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire4/dw_bn/gamma/Initializer/Const (Const) 
+  fire4/dw_bn/gamma (VariableV2) /device:GPU:0
+  fire4/dw_bn/gamma/Assign (Assign) /device:GPU:0
+  fire4/dw_bn/gamma/read (Identity) /device:GPU:0
+  fire4/dw_bn/gamma/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire4/dw_bn/gamma/Momentum (VariableV2) /device:GPU:0
+  fire4/dw_bn/gamma/Momentum/Assign (Assign) /device:GPU:0
+  fire4/dw_bn/gamma/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire4/dw_bn/gamma/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_80 (Assign) /device:GPU:0
+  save/Assign_81 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.726390: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire4/dw_bn/moving_mean/Initializer/Const (Const) 
+  fire4/dw_bn/moving_mean (VariableV2) /device:GPU:0
+  fire4/dw_bn/moving_mean/Assign (Assign) /device:GPU:0
+  fire4/dw_bn/moving_mean/read (Identity) /device:GPU:0
+  fire4/dw_bn/fire4/dw_bn/moving_mean/biased/Initializer/zeros (Const) /device:GPU:0
+  fire4/dw_bn/fire4/dw_bn/moving_mean/biased (VariableV2) /device:GPU:0
+  fire4/dw_bn/fire4/dw_bn/moving_mean/biased/Assign (Assign) /device:GPU:0
+  fire4/dw_bn/fire4/dw_bn/moving_mean/biased/read (Identity) /device:GPU:0
+  fire4/dw_bn/fire4/dw_bn/moving_mean/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire4/dw_bn/fire4/dw_bn/moving_mean/local_step (VariableV2) /device:GPU:0
+  fire4/dw_bn/fire4/dw_bn/moving_mean/local_step/Assign (Assign) /device:GPU:0
+  fire4/dw_bn/fire4/dw_bn/moving_mean/local_step/read (Identity) /device:GPU:0
+  fire4/dw_bn/AssignMovingAvg/AssignSub (AssignSub) /device:GPU:0
+  fire4/dw_bn/AssignMovingAvg/AssignAdd (AssignAdd) /device:GPU:0
+  fire4/dw_bn/AssignMovingAvg (Assign) /device:GPU:0
+  save/Assign_76 (Assign) /device:GPU:0
+  save/Assign_77 (Assign) /device:GPU:0
+  save/Assign_82 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.726496: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire4/dw_bn/moving_variance/Initializer/Const (Const) 
+  fire4/dw_bn/moving_variance (VariableV2) /device:GPU:0
+  fire4/dw_bn/moving_variance/Assign (Assign) /device:GPU:0
+  fire4/dw_bn/moving_variance/read (Identity) /device:GPU:0
+  fire4/dw_bn/fire4/dw_bn/moving_variance/biased/Initializer/zeros (Const) /device:GPU:0
+  fire4/dw_bn/fire4/dw_bn/moving_variance/biased (VariableV2) /device:GPU:0
+  fire4/dw_bn/fire4/dw_bn/moving_variance/biased/Assign (Assign) /device:GPU:0
+  fire4/dw_bn/fire4/dw_bn/moving_variance/biased/read (Identity) /device:GPU:0
+  fire4/dw_bn/fire4/dw_bn/moving_variance/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire4/dw_bn/fire4/dw_bn/moving_variance/local_step (VariableV2) /device:GPU:0
+  fire4/dw_bn/fire4/dw_bn/moving_variance/local_step/Assign (Assign) /device:GPU:0
+  fire4/dw_bn/fire4/dw_bn/moving_variance/local_step/read (Identity) /device:GPU:0
+  fire4/dw_bn/AssignMovingAvg_1/AssignSub (AssignSub) /device:GPU:0
+  fire4/dw_bn/AssignMovingAvg_1/AssignAdd (AssignAdd) /device:GPU:0
+  fire4/dw_bn/AssignMovingAvg_1 (Assign) /device:GPU:0
+  save/Assign_78 (Assign) /device:GPU:0
+  save/Assign_79 (Assign) /device:GPU:0
+  save/Assign_83 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.726662: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Fill: CPU XLA_CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+ApplyMomentum: CPU 
+Add: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+TruncatedNormal: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire4/conv1x1/kernels/Initializer/truncated_normal/shape (Const) 
+  fire4/conv1x1/kernels/Initializer/truncated_normal/mean (Const) 
+  fire4/conv1x1/kernels/Initializer/truncated_normal/stddev (Const) 
+  fire4/conv1x1/kernels/Initializer/truncated_normal/TruncatedNormal (TruncatedNormal) 
+  fire4/conv1x1/kernels/Initializer/truncated_normal/mul (Mul) 
+  fire4/conv1x1/kernels/Initializer/truncated_normal (Add) 
+  fire4/conv1x1/kernels (VariableV2) /device:GPU:0
+  fire4/conv1x1/kernels/Assign (Assign) /device:GPU:0
+  fire4/conv1x1/kernels/read (Identity) /device:GPU:0
+  fire4/conv1x1/kernels/Momentum/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  fire4/conv1x1/kernels/Momentum/Initializer/zeros/Const (Const) /device:GPU:0
+  fire4/conv1x1/kernels/Momentum/Initializer/zeros (Fill) /device:GPU:0
+  fire4/conv1x1/kernels/Momentum (VariableV2) /device:GPU:0
+  fire4/conv1x1/kernels/Momentum/Assign (Assign) /device:GPU:0
+  fire4/conv1x1/kernels/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire4/conv1x1/kernels/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_72 (Assign) /device:GPU:0
+  save/Assign_73 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.726796: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire4/1x1_bn/beta/Initializer/Const (Const) 
+  fire4/1x1_bn/beta (VariableV2) /device:GPU:0
+  fire4/1x1_bn/beta/Assign (Assign) /device:GPU:0
+  fire4/1x1_bn/beta/read (Identity) /device:GPU:0
+  fire4/1x1_bn/beta/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire4/1x1_bn/beta/Momentum (VariableV2) /device:GPU:0
+  fire4/1x1_bn/beta/Momentum/Assign (Assign) /device:GPU:0
+  fire4/1x1_bn/beta/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire4/1x1_bn/beta/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_62 (Assign) /device:GPU:0
+  save/Assign_63 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.726903: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire4/1x1_bn/gamma/Initializer/Const (Const) 
+  fire4/1x1_bn/gamma (VariableV2) /device:GPU:0
+  fire4/1x1_bn/gamma/Assign (Assign) /device:GPU:0
+  fire4/1x1_bn/gamma/read (Identity) /device:GPU:0
+  fire4/1x1_bn/gamma/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire4/1x1_bn/gamma/Momentum (VariableV2) /device:GPU:0
+  fire4/1x1_bn/gamma/Momentum/Assign (Assign) /device:GPU:0
+  fire4/1x1_bn/gamma/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire4/1x1_bn/gamma/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_68 (Assign) /device:GPU:0
+  save/Assign_69 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.727047: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire4/1x1_bn/moving_mean/Initializer/Const (Const) 
+  fire4/1x1_bn/moving_mean (VariableV2) /device:GPU:0
+  fire4/1x1_bn/moving_mean/Assign (Assign) /device:GPU:0
+  fire4/1x1_bn/moving_mean/read (Identity) /device:GPU:0
+  fire4/1x1_bn/fire4/1x1_bn/moving_mean/biased/Initializer/zeros (Const) /device:GPU:0
+  fire4/1x1_bn/fire4/1x1_bn/moving_mean/biased (VariableV2) /device:GPU:0
+  fire4/1x1_bn/fire4/1x1_bn/moving_mean/biased/Assign (Assign) /device:GPU:0
+  fire4/1x1_bn/fire4/1x1_bn/moving_mean/biased/read (Identity) /device:GPU:0
+  fire4/1x1_bn/fire4/1x1_bn/moving_mean/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire4/1x1_bn/fire4/1x1_bn/moving_mean/local_step (VariableV2) /device:GPU:0
+  fire4/1x1_bn/fire4/1x1_bn/moving_mean/local_step/Assign (Assign) /device:GPU:0
+  fire4/1x1_bn/fire4/1x1_bn/moving_mean/local_step/read (Identity) /device:GPU:0
+  fire4/1x1_bn/AssignMovingAvg/AssignSub (AssignSub) /device:GPU:0
+  fire4/1x1_bn/AssignMovingAvg/AssignAdd (AssignAdd) /device:GPU:0
+  fire4/1x1_bn/AssignMovingAvg (Assign) /device:GPU:0
+  save/Assign_64 (Assign) /device:GPU:0
+  save/Assign_65 (Assign) /device:GPU:0
+  save/Assign_70 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.727165: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire4/1x1_bn/moving_variance/Initializer/Const (Const) 
+  fire4/1x1_bn/moving_variance (VariableV2) /device:GPU:0
+  fire4/1x1_bn/moving_variance/Assign (Assign) /device:GPU:0
+  fire4/1x1_bn/moving_variance/read (Identity) /device:GPU:0
+  fire4/1x1_bn/fire4/1x1_bn/moving_variance/biased/Initializer/zeros (Const) /device:GPU:0
+  fire4/1x1_bn/fire4/1x1_bn/moving_variance/biased (VariableV2) /device:GPU:0
+  fire4/1x1_bn/fire4/1x1_bn/moving_variance/biased/Assign (Assign) /device:GPU:0
+  fire4/1x1_bn/fire4/1x1_bn/moving_variance/biased/read (Identity) /device:GPU:0
+  fire4/1x1_bn/fire4/1x1_bn/moving_variance/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire4/1x1_bn/fire4/1x1_bn/moving_variance/local_step (VariableV2) /device:GPU:0
+  fire4/1x1_bn/fire4/1x1_bn/moving_variance/local_step/Assign (Assign) /device:GPU:0
+  fire4/1x1_bn/fire4/1x1_bn/moving_variance/local_step/read (Identity) /device:GPU:0
+  fire4/1x1_bn/AssignMovingAvg_1/AssignSub (AssignSub) /device:GPU:0
+  fire4/1x1_bn/AssignMovingAvg_1/AssignAdd (AssignAdd) /device:GPU:0
+  fire4/1x1_bn/AssignMovingAvg_1 (Assign) /device:GPU:0
+  save/Assign_66 (Assign) /device:GPU:0
+  save/Assign_67 (Assign) /device:GPU:0
+  save/Assign_71 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.727318: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+ApplyMomentum: CPU 
+Add: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+TruncatedNormal: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire5/dw_conv3x3/kernels/Initializer/truncated_normal/shape (Const) 
+  fire5/dw_conv3x3/kernels/Initializer/truncated_normal/mean (Const) 
+  fire5/dw_conv3x3/kernels/Initializer/truncated_normal/stddev (Const) 
+  fire5/dw_conv3x3/kernels/Initializer/truncated_normal/TruncatedNormal (TruncatedNormal) 
+  fire5/dw_conv3x3/kernels/Initializer/truncated_normal/mul (Mul) 
+  fire5/dw_conv3x3/kernels/Initializer/truncated_normal (Add) 
+  fire5/dw_conv3x3/kernels (VariableV2) /device:GPU:0
+  fire5/dw_conv3x3/kernels/Assign (Assign) /device:GPU:0
+  fire5/dw_conv3x3/kernels/read (Identity) /device:GPU:0
+  fire5/dw_conv3x3/kernels/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire5/dw_conv3x3/kernels/Momentum (VariableV2) /device:GPU:0
+  fire5/dw_conv3x3/kernels/Momentum/Assign (Assign) /device:GPU:0
+  fire5/dw_conv3x3/kernels/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire5/dw_conv3x3/kernels/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_108 (Assign) /device:GPU:0
+  save/Assign_109 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.727448: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire5/dw_bn/beta/Initializer/Const (Const) 
+  fire5/dw_bn/beta (VariableV2) /device:GPU:0
+  fire5/dw_bn/beta/Assign (Assign) /device:GPU:0
+  fire5/dw_bn/beta/read (Identity) /device:GPU:0
+  fire5/dw_bn/beta/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire5/dw_bn/beta/Momentum (VariableV2) /device:GPU:0
+  fire5/dw_bn/beta/Momentum/Assign (Assign) /device:GPU:0
+  fire5/dw_bn/beta/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire5/dw_bn/beta/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_98 (Assign) /device:GPU:0
+  save/Assign_99 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.727526: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire5/dw_bn/gamma/Initializer/Const (Const) 
+  fire5/dw_bn/gamma (VariableV2) /device:GPU:0
+  fire5/dw_bn/gamma/Assign (Assign) /device:GPU:0
+  fire5/dw_bn/gamma/read (Identity) /device:GPU:0
+  fire5/dw_bn/gamma/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire5/dw_bn/gamma/Momentum (VariableV2) /device:GPU:0
+  fire5/dw_bn/gamma/Momentum/Assign (Assign) /device:GPU:0
+  fire5/dw_bn/gamma/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire5/dw_bn/gamma/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_104 (Assign) /device:GPU:0
+  save/Assign_105 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.727618: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire5/dw_bn/moving_mean/Initializer/Const (Const) 
+  fire5/dw_bn/moving_mean (VariableV2) /device:GPU:0
+  fire5/dw_bn/moving_mean/Assign (Assign) /device:GPU:0
+  fire5/dw_bn/moving_mean/read (Identity) /device:GPU:0
+  fire5/dw_bn/fire5/dw_bn/moving_mean/biased/Initializer/zeros (Const) /device:GPU:0
+  fire5/dw_bn/fire5/dw_bn/moving_mean/biased (VariableV2) /device:GPU:0
+  fire5/dw_bn/fire5/dw_bn/moving_mean/biased/Assign (Assign) /device:GPU:0
+  fire5/dw_bn/fire5/dw_bn/moving_mean/biased/read (Identity) /device:GPU:0
+  fire5/dw_bn/fire5/dw_bn/moving_mean/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire5/dw_bn/fire5/dw_bn/moving_mean/local_step (VariableV2) /device:GPU:0
+  fire5/dw_bn/fire5/dw_bn/moving_mean/local_step/Assign (Assign) /device:GPU:0
+  fire5/dw_bn/fire5/dw_bn/moving_mean/local_step/read (Identity) /device:GPU:0
+  fire5/dw_bn/AssignMovingAvg/AssignSub (AssignSub) /device:GPU:0
+  fire5/dw_bn/AssignMovingAvg/AssignAdd (AssignAdd) /device:GPU:0
+  fire5/dw_bn/AssignMovingAvg (Assign) /device:GPU:0
+  save/Assign_100 (Assign) /device:GPU:0
+  save/Assign_101 (Assign) /device:GPU:0
+  save/Assign_106 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.727701: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire5/dw_bn/moving_variance/Initializer/Const (Const) 
+  fire5/dw_bn/moving_variance (VariableV2) /device:GPU:0
+  fire5/dw_bn/moving_variance/Assign (Assign) /device:GPU:0
+  fire5/dw_bn/moving_variance/read (Identity) /device:GPU:0
+  fire5/dw_bn/fire5/dw_bn/moving_variance/biased/Initializer/zeros (Const) /device:GPU:0
+  fire5/dw_bn/fire5/dw_bn/moving_variance/biased (VariableV2) /device:GPU:0
+  fire5/dw_bn/fire5/dw_bn/moving_variance/biased/Assign (Assign) /device:GPU:0
+  fire5/dw_bn/fire5/dw_bn/moving_variance/biased/read (Identity) /device:GPU:0
+  fire5/dw_bn/fire5/dw_bn/moving_variance/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire5/dw_bn/fire5/dw_bn/moving_variance/local_step (VariableV2) /device:GPU:0
+  fire5/dw_bn/fire5/dw_bn/moving_variance/local_step/Assign (Assign) /device:GPU:0
+  fire5/dw_bn/fire5/dw_bn/moving_variance/local_step/read (Identity) /device:GPU:0
+  fire5/dw_bn/AssignMovingAvg_1/AssignSub (AssignSub) /device:GPU:0
+  fire5/dw_bn/AssignMovingAvg_1/AssignAdd (AssignAdd) /device:GPU:0
+  fire5/dw_bn/AssignMovingAvg_1 (Assign) /device:GPU:0
+  save/Assign_102 (Assign) /device:GPU:0
+  save/Assign_103 (Assign) /device:GPU:0
+  save/Assign_107 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.727826: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Fill: CPU XLA_CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+ApplyMomentum: CPU 
+Add: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+TruncatedNormal: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire5/conv1x1/kernels/Initializer/truncated_normal/shape (Const) 
+  fire5/conv1x1/kernels/Initializer/truncated_normal/mean (Const) 
+  fire5/conv1x1/kernels/Initializer/truncated_normal/stddev (Const) 
+  fire5/conv1x1/kernels/Initializer/truncated_normal/TruncatedNormal (TruncatedNormal) 
+  fire5/conv1x1/kernels/Initializer/truncated_normal/mul (Mul) 
+  fire5/conv1x1/kernels/Initializer/truncated_normal (Add) 
+  fire5/conv1x1/kernels (VariableV2) /device:GPU:0
+  fire5/conv1x1/kernels/Assign (Assign) /device:GPU:0
+  fire5/conv1x1/kernels/read (Identity) /device:GPU:0
+  fire5/conv1x1/kernels/Momentum/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  fire5/conv1x1/kernels/Momentum/Initializer/zeros/Const (Const) /device:GPU:0
+  fire5/conv1x1/kernels/Momentum/Initializer/zeros (Fill) /device:GPU:0
+  fire5/conv1x1/kernels/Momentum (VariableV2) /device:GPU:0
+  fire5/conv1x1/kernels/Momentum/Assign (Assign) /device:GPU:0
+  fire5/conv1x1/kernels/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire5/conv1x1/kernels/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_96 (Assign) /device:GPU:0
+  save/Assign_97 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.727956: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire5/1x1_bn/beta/Initializer/Const (Const) 
+  fire5/1x1_bn/beta (VariableV2) /device:GPU:0
+  fire5/1x1_bn/beta/Assign (Assign) /device:GPU:0
+  fire5/1x1_bn/beta/read (Identity) /device:GPU:0
+  fire5/1x1_bn/beta/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire5/1x1_bn/beta/Momentum (VariableV2) /device:GPU:0
+  fire5/1x1_bn/beta/Momentum/Assign (Assign) /device:GPU:0
+  fire5/1x1_bn/beta/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire5/1x1_bn/beta/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_86 (Assign) /device:GPU:0
+  save/Assign_87 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.728064: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire5/1x1_bn/gamma/Initializer/Const (Const) 
+  fire5/1x1_bn/gamma (VariableV2) /device:GPU:0
+  fire5/1x1_bn/gamma/Assign (Assign) /device:GPU:0
+  fire5/1x1_bn/gamma/read (Identity) /device:GPU:0
+  fire5/1x1_bn/gamma/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire5/1x1_bn/gamma/Momentum (VariableV2) /device:GPU:0
+  fire5/1x1_bn/gamma/Momentum/Assign (Assign) /device:GPU:0
+  fire5/1x1_bn/gamma/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire5/1x1_bn/gamma/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_92 (Assign) /device:GPU:0
+  save/Assign_93 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.728188: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire5/1x1_bn/moving_mean/Initializer/Const (Const) 
+  fire5/1x1_bn/moving_mean (VariableV2) /device:GPU:0
+  fire5/1x1_bn/moving_mean/Assign (Assign) /device:GPU:0
+  fire5/1x1_bn/moving_mean/read (Identity) /device:GPU:0
+  fire5/1x1_bn/fire5/1x1_bn/moving_mean/biased/Initializer/zeros (Const) /device:GPU:0
+  fire5/1x1_bn/fire5/1x1_bn/moving_mean/biased (VariableV2) /device:GPU:0
+  fire5/1x1_bn/fire5/1x1_bn/moving_mean/biased/Assign (Assign) /device:GPU:0
+  fire5/1x1_bn/fire5/1x1_bn/moving_mean/biased/read (Identity) /device:GPU:0
+  fire5/1x1_bn/fire5/1x1_bn/moving_mean/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire5/1x1_bn/fire5/1x1_bn/moving_mean/local_step (VariableV2) /device:GPU:0
+  fire5/1x1_bn/fire5/1x1_bn/moving_mean/local_step/Assign (Assign) /device:GPU:0
+  fire5/1x1_bn/fire5/1x1_bn/moving_mean/local_step/read (Identity) /device:GPU:0
+  fire5/1x1_bn/AssignMovingAvg/AssignSub (AssignSub) /device:GPU:0
+  fire5/1x1_bn/AssignMovingAvg/AssignAdd (AssignAdd) /device:GPU:0
+  fire5/1x1_bn/AssignMovingAvg (Assign) /device:GPU:0
+  save/Assign_88 (Assign) /device:GPU:0
+  save/Assign_89 (Assign) /device:GPU:0
+  save/Assign_94 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.728275: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire5/1x1_bn/moving_variance/Initializer/Const (Const) 
+  fire5/1x1_bn/moving_variance (VariableV2) /device:GPU:0
+  fire5/1x1_bn/moving_variance/Assign (Assign) /device:GPU:0
+  fire5/1x1_bn/moving_variance/read (Identity) /device:GPU:0
+  fire5/1x1_bn/fire5/1x1_bn/moving_variance/biased/Initializer/zeros (Const) /device:GPU:0
+  fire5/1x1_bn/fire5/1x1_bn/moving_variance/biased (VariableV2) /device:GPU:0
+  fire5/1x1_bn/fire5/1x1_bn/moving_variance/biased/Assign (Assign) /device:GPU:0
+  fire5/1x1_bn/fire5/1x1_bn/moving_variance/biased/read (Identity) /device:GPU:0
+  fire5/1x1_bn/fire5/1x1_bn/moving_variance/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire5/1x1_bn/fire5/1x1_bn/moving_variance/local_step (VariableV2) /device:GPU:0
+  fire5/1x1_bn/fire5/1x1_bn/moving_variance/local_step/Assign (Assign) /device:GPU:0
+  fire5/1x1_bn/fire5/1x1_bn/moving_variance/local_step/read (Identity) /device:GPU:0
+  fire5/1x1_bn/AssignMovingAvg_1/AssignSub (AssignSub) /device:GPU:0
+  fire5/1x1_bn/AssignMovingAvg_1/AssignAdd (AssignAdd) /device:GPU:0
+  fire5/1x1_bn/AssignMovingAvg_1 (Assign) /device:GPU:0
+  save/Assign_90 (Assign) /device:GPU:0
+  save/Assign_91 (Assign) /device:GPU:0
+  save/Assign_95 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.728393: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+ApplyMomentum: CPU 
+Add: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+TruncatedNormal: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire6/dw_conv3x3/kernels/Initializer/truncated_normal/shape (Const) 
+  fire6/dw_conv3x3/kernels/Initializer/truncated_normal/mean (Const) 
+  fire6/dw_conv3x3/kernels/Initializer/truncated_normal/stddev (Const) 
+  fire6/dw_conv3x3/kernels/Initializer/truncated_normal/TruncatedNormal (TruncatedNormal) 
+  fire6/dw_conv3x3/kernels/Initializer/truncated_normal/mul (Mul) 
+  fire6/dw_conv3x3/kernels/Initializer/truncated_normal (Add) 
+  fire6/dw_conv3x3/kernels (VariableV2) /device:GPU:0
+  fire6/dw_conv3x3/kernels/Assign (Assign) /device:GPU:0
+  fire6/dw_conv3x3/kernels/read (Identity) /device:GPU:0
+  fire6/dw_conv3x3/kernels/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire6/dw_conv3x3/kernels/Momentum (VariableV2) /device:GPU:0
+  fire6/dw_conv3x3/kernels/Momentum/Assign (Assign) /device:GPU:0
+  fire6/dw_conv3x3/kernels/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire6/dw_conv3x3/kernels/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_132 (Assign) /device:GPU:0
+  save/Assign_133 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.728490: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire6/dw_bn/beta/Initializer/Const (Const) 
+  fire6/dw_bn/beta (VariableV2) /device:GPU:0
+  fire6/dw_bn/beta/Assign (Assign) /device:GPU:0
+  fire6/dw_bn/beta/read (Identity) /device:GPU:0
+  fire6/dw_bn/beta/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire6/dw_bn/beta/Momentum (VariableV2) /device:GPU:0
+  fire6/dw_bn/beta/Momentum/Assign (Assign) /device:GPU:0
+  fire6/dw_bn/beta/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire6/dw_bn/beta/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_122 (Assign) /device:GPU:0
+  save/Assign_123 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.728567: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire6/dw_bn/gamma/Initializer/Const (Const) 
+  fire6/dw_bn/gamma (VariableV2) /device:GPU:0
+  fire6/dw_bn/gamma/Assign (Assign) /device:GPU:0
+  fire6/dw_bn/gamma/read (Identity) /device:GPU:0
+  fire6/dw_bn/gamma/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire6/dw_bn/gamma/Momentum (VariableV2) /device:GPU:0
+  fire6/dw_bn/gamma/Momentum/Assign (Assign) /device:GPU:0
+  fire6/dw_bn/gamma/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire6/dw_bn/gamma/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_128 (Assign) /device:GPU:0
+  save/Assign_129 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.728688: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire6/dw_bn/moving_mean/Initializer/Const (Const) 
+  fire6/dw_bn/moving_mean (VariableV2) /device:GPU:0
+  fire6/dw_bn/moving_mean/Assign (Assign) /device:GPU:0
+  fire6/dw_bn/moving_mean/read (Identity) /device:GPU:0
+  fire6/dw_bn/fire6/dw_bn/moving_mean/biased/Initializer/zeros (Const) /device:GPU:0
+  fire6/dw_bn/fire6/dw_bn/moving_mean/biased (VariableV2) /device:GPU:0
+  fire6/dw_bn/fire6/dw_bn/moving_mean/biased/Assign (Assign) /device:GPU:0
+  fire6/dw_bn/fire6/dw_bn/moving_mean/biased/read (Identity) /device:GPU:0
+  fire6/dw_bn/fire6/dw_bn/moving_mean/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire6/dw_bn/fire6/dw_bn/moving_mean/local_step (VariableV2) /device:GPU:0
+  fire6/dw_bn/fire6/dw_bn/moving_mean/local_step/Assign (Assign) /device:GPU:0
+  fire6/dw_bn/fire6/dw_bn/moving_mean/local_step/read (Identity) /device:GPU:0
+  fire6/dw_bn/AssignMovingAvg/AssignSub (AssignSub) /device:GPU:0
+  fire6/dw_bn/AssignMovingAvg/AssignAdd (AssignAdd) /device:GPU:0
+  fire6/dw_bn/AssignMovingAvg (Assign) /device:GPU:0
+  save/Assign_124 (Assign) /device:GPU:0
+  save/Assign_125 (Assign) /device:GPU:0
+  save/Assign_130 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.728805: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire6/dw_bn/moving_variance/Initializer/Const (Const) 
+  fire6/dw_bn/moving_variance (VariableV2) /device:GPU:0
+  fire6/dw_bn/moving_variance/Assign (Assign) /device:GPU:0
+  fire6/dw_bn/moving_variance/read (Identity) /device:GPU:0
+  fire6/dw_bn/fire6/dw_bn/moving_variance/biased/Initializer/zeros (Const) /device:GPU:0
+  fire6/dw_bn/fire6/dw_bn/moving_variance/biased (VariableV2) /device:GPU:0
+  fire6/dw_bn/fire6/dw_bn/moving_variance/biased/Assign (Assign) /device:GPU:0
+  fire6/dw_bn/fire6/dw_bn/moving_variance/biased/read (Identity) /device:GPU:0
+  fire6/dw_bn/fire6/dw_bn/moving_variance/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire6/dw_bn/fire6/dw_bn/moving_variance/local_step (VariableV2) /device:GPU:0
+  fire6/dw_bn/fire6/dw_bn/moving_variance/local_step/Assign (Assign) /device:GPU:0
+  fire6/dw_bn/fire6/dw_bn/moving_variance/local_step/read (Identity) /device:GPU:0
+  fire6/dw_bn/AssignMovingAvg_1/AssignSub (AssignSub) /device:GPU:0
+  fire6/dw_bn/AssignMovingAvg_1/AssignAdd (AssignAdd) /device:GPU:0
+  fire6/dw_bn/AssignMovingAvg_1 (Assign) /device:GPU:0
+  save/Assign_126 (Assign) /device:GPU:0
+  save/Assign_127 (Assign) /device:GPU:0
+  save/Assign_131 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.728963: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Fill: CPU XLA_CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+ApplyMomentum: CPU 
+Add: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+TruncatedNormal: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire6/conv1x1/kernels/Initializer/truncated_normal/shape (Const) 
+  fire6/conv1x1/kernels/Initializer/truncated_normal/mean (Const) 
+  fire6/conv1x1/kernels/Initializer/truncated_normal/stddev (Const) 
+  fire6/conv1x1/kernels/Initializer/truncated_normal/TruncatedNormal (TruncatedNormal) 
+  fire6/conv1x1/kernels/Initializer/truncated_normal/mul (Mul) 
+  fire6/conv1x1/kernels/Initializer/truncated_normal (Add) 
+  fire6/conv1x1/kernels (VariableV2) /device:GPU:0
+  fire6/conv1x1/kernels/Assign (Assign) /device:GPU:0
+  fire6/conv1x1/kernels/read (Identity) /device:GPU:0
+  fire6/conv1x1/kernels/Momentum/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  fire6/conv1x1/kernels/Momentum/Initializer/zeros/Const (Const) /device:GPU:0
+  fire6/conv1x1/kernels/Momentum/Initializer/zeros (Fill) /device:GPU:0
+  fire6/conv1x1/kernels/Momentum (VariableV2) /device:GPU:0
+  fire6/conv1x1/kernels/Momentum/Assign (Assign) /device:GPU:0
+  fire6/conv1x1/kernels/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire6/conv1x1/kernels/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_120 (Assign) /device:GPU:0
+  save/Assign_121 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.729061: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire6/1x1_bn/beta/Initializer/Const (Const) 
+  fire6/1x1_bn/beta (VariableV2) /device:GPU:0
+  fire6/1x1_bn/beta/Assign (Assign) /device:GPU:0
+  fire6/1x1_bn/beta/read (Identity) /device:GPU:0
+  fire6/1x1_bn/beta/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire6/1x1_bn/beta/Momentum (VariableV2) /device:GPU:0
+  fire6/1x1_bn/beta/Momentum/Assign (Assign) /device:GPU:0
+  fire6/1x1_bn/beta/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire6/1x1_bn/beta/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_110 (Assign) /device:GPU:0
+  save/Assign_111 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.729137: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire6/1x1_bn/gamma/Initializer/Const (Const) 
+  fire6/1x1_bn/gamma (VariableV2) /device:GPU:0
+  fire6/1x1_bn/gamma/Assign (Assign) /device:GPU:0
+  fire6/1x1_bn/gamma/read (Identity) /device:GPU:0
+  fire6/1x1_bn/gamma/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire6/1x1_bn/gamma/Momentum (VariableV2) /device:GPU:0
+  fire6/1x1_bn/gamma/Momentum/Assign (Assign) /device:GPU:0
+  fire6/1x1_bn/gamma/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire6/1x1_bn/gamma/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_116 (Assign) /device:GPU:0
+  save/Assign_117 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.729232: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire6/1x1_bn/moving_mean/Initializer/Const (Const) 
+  fire6/1x1_bn/moving_mean (VariableV2) /device:GPU:0
+  fire6/1x1_bn/moving_mean/Assign (Assign) /device:GPU:0
+  fire6/1x1_bn/moving_mean/read (Identity) /device:GPU:0
+  fire6/1x1_bn/fire6/1x1_bn/moving_mean/biased/Initializer/zeros (Const) /device:GPU:0
+  fire6/1x1_bn/fire6/1x1_bn/moving_mean/biased (VariableV2) /device:GPU:0
+  fire6/1x1_bn/fire6/1x1_bn/moving_mean/biased/Assign (Assign) /device:GPU:0
+  fire6/1x1_bn/fire6/1x1_bn/moving_mean/biased/read (Identity) /device:GPU:0
+  fire6/1x1_bn/fire6/1x1_bn/moving_mean/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire6/1x1_bn/fire6/1x1_bn/moving_mean/local_step (VariableV2) /device:GPU:0
+  fire6/1x1_bn/fire6/1x1_bn/moving_mean/local_step/Assign (Assign) /device:GPU:0
+  fire6/1x1_bn/fire6/1x1_bn/moving_mean/local_step/read (Identity) /device:GPU:0
+  fire6/1x1_bn/AssignMovingAvg/AssignSub (AssignSub) /device:GPU:0
+  fire6/1x1_bn/AssignMovingAvg/AssignAdd (AssignAdd) /device:GPU:0
+  fire6/1x1_bn/AssignMovingAvg (Assign) /device:GPU:0
+  save/Assign_112 (Assign) /device:GPU:0
+  save/Assign_113 (Assign) /device:GPU:0
+  save/Assign_118 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.729317: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire6/1x1_bn/moving_variance/Initializer/Const (Const) 
+  fire6/1x1_bn/moving_variance (VariableV2) /device:GPU:0
+  fire6/1x1_bn/moving_variance/Assign (Assign) /device:GPU:0
+  fire6/1x1_bn/moving_variance/read (Identity) /device:GPU:0
+  fire6/1x1_bn/fire6/1x1_bn/moving_variance/biased/Initializer/zeros (Const) /device:GPU:0
+  fire6/1x1_bn/fire6/1x1_bn/moving_variance/biased (VariableV2) /device:GPU:0
+  fire6/1x1_bn/fire6/1x1_bn/moving_variance/biased/Assign (Assign) /device:GPU:0
+  fire6/1x1_bn/fire6/1x1_bn/moving_variance/biased/read (Identity) /device:GPU:0
+  fire6/1x1_bn/fire6/1x1_bn/moving_variance/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire6/1x1_bn/fire6/1x1_bn/moving_variance/local_step (VariableV2) /device:GPU:0
+  fire6/1x1_bn/fire6/1x1_bn/moving_variance/local_step/Assign (Assign) /device:GPU:0
+  fire6/1x1_bn/fire6/1x1_bn/moving_variance/local_step/read (Identity) /device:GPU:0
+  fire6/1x1_bn/AssignMovingAvg_1/AssignSub (AssignSub) /device:GPU:0
+  fire6/1x1_bn/AssignMovingAvg_1/AssignAdd (AssignAdd) /device:GPU:0
+  fire6/1x1_bn/AssignMovingAvg_1 (Assign) /device:GPU:0
+  save/Assign_114 (Assign) /device:GPU:0
+  save/Assign_115 (Assign) /device:GPU:0
+  save/Assign_119 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.729441: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+ApplyMomentum: CPU 
+Add: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+TruncatedNormal: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire7/dw_conv3x3/kernels/Initializer/truncated_normal/shape (Const) 
+  fire7/dw_conv3x3/kernels/Initializer/truncated_normal/mean (Const) 
+  fire7/dw_conv3x3/kernels/Initializer/truncated_normal/stddev (Const) 
+  fire7/dw_conv3x3/kernels/Initializer/truncated_normal/TruncatedNormal (TruncatedNormal) 
+  fire7/dw_conv3x3/kernels/Initializer/truncated_normal/mul (Mul) 
+  fire7/dw_conv3x3/kernels/Initializer/truncated_normal (Add) 
+  fire7/dw_conv3x3/kernels (VariableV2) /device:GPU:0
+  fire7/dw_conv3x3/kernels/Assign (Assign) /device:GPU:0
+  fire7/dw_conv3x3/kernels/read (Identity) /device:GPU:0
+  fire7/dw_conv3x3/kernels/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire7/dw_conv3x3/kernels/Momentum (VariableV2) /device:GPU:0
+  fire7/dw_conv3x3/kernels/Momentum/Assign (Assign) /device:GPU:0
+  fire7/dw_conv3x3/kernels/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire7/dw_conv3x3/kernels/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_156 (Assign) /device:GPU:0
+  save/Assign_157 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.729536: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire7/dw_bn/beta/Initializer/Const (Const) 
+  fire7/dw_bn/beta (VariableV2) /device:GPU:0
+  fire7/dw_bn/beta/Assign (Assign) /device:GPU:0
+  fire7/dw_bn/beta/read (Identity) /device:GPU:0
+  fire7/dw_bn/beta/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire7/dw_bn/beta/Momentum (VariableV2) /device:GPU:0
+  fire7/dw_bn/beta/Momentum/Assign (Assign) /device:GPU:0
+  fire7/dw_bn/beta/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire7/dw_bn/beta/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_146 (Assign) /device:GPU:0
+  save/Assign_147 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.729646: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire7/dw_bn/gamma/Initializer/Const (Const) 
+  fire7/dw_bn/gamma (VariableV2) /device:GPU:0
+  fire7/dw_bn/gamma/Assign (Assign) /device:GPU:0
+  fire7/dw_bn/gamma/read (Identity) /device:GPU:0
+  fire7/dw_bn/gamma/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire7/dw_bn/gamma/Momentum (VariableV2) /device:GPU:0
+  fire7/dw_bn/gamma/Momentum/Assign (Assign) /device:GPU:0
+  fire7/dw_bn/gamma/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire7/dw_bn/gamma/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_152 (Assign) /device:GPU:0
+  save/Assign_153 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.729768: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire7/dw_bn/moving_mean/Initializer/Const (Const) 
+  fire7/dw_bn/moving_mean (VariableV2) /device:GPU:0
+  fire7/dw_bn/moving_mean/Assign (Assign) /device:GPU:0
+  fire7/dw_bn/moving_mean/read (Identity) /device:GPU:0
+  fire7/dw_bn/fire7/dw_bn/moving_mean/biased/Initializer/zeros (Const) /device:GPU:0
+  fire7/dw_bn/fire7/dw_bn/moving_mean/biased (VariableV2) /device:GPU:0
+  fire7/dw_bn/fire7/dw_bn/moving_mean/biased/Assign (Assign) /device:GPU:0
+  fire7/dw_bn/fire7/dw_bn/moving_mean/biased/read (Identity) /device:GPU:0
+  fire7/dw_bn/fire7/dw_bn/moving_mean/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire7/dw_bn/fire7/dw_bn/moving_mean/local_step (VariableV2) /device:GPU:0
+  fire7/dw_bn/fire7/dw_bn/moving_mean/local_step/Assign (Assign) /device:GPU:0
+  fire7/dw_bn/fire7/dw_bn/moving_mean/local_step/read (Identity) /device:GPU:0
+  fire7/dw_bn/AssignMovingAvg/AssignSub (AssignSub) /device:GPU:0
+  fire7/dw_bn/AssignMovingAvg/AssignAdd (AssignAdd) /device:GPU:0
+  fire7/dw_bn/AssignMovingAvg (Assign) /device:GPU:0
+  save/Assign_148 (Assign) /device:GPU:0
+  save/Assign_149 (Assign) /device:GPU:0
+  save/Assign_154 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.729872: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire7/dw_bn/moving_variance/Initializer/Const (Const) 
+  fire7/dw_bn/moving_variance (VariableV2) /device:GPU:0
+  fire7/dw_bn/moving_variance/Assign (Assign) /device:GPU:0
+  fire7/dw_bn/moving_variance/read (Identity) /device:GPU:0
+  fire7/dw_bn/fire7/dw_bn/moving_variance/biased/Initializer/zeros (Const) /device:GPU:0
+  fire7/dw_bn/fire7/dw_bn/moving_variance/biased (VariableV2) /device:GPU:0
+  fire7/dw_bn/fire7/dw_bn/moving_variance/biased/Assign (Assign) /device:GPU:0
+  fire7/dw_bn/fire7/dw_bn/moving_variance/biased/read (Identity) /device:GPU:0
+  fire7/dw_bn/fire7/dw_bn/moving_variance/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire7/dw_bn/fire7/dw_bn/moving_variance/local_step (VariableV2) /device:GPU:0
+  fire7/dw_bn/fire7/dw_bn/moving_variance/local_step/Assign (Assign) /device:GPU:0
+  fire7/dw_bn/fire7/dw_bn/moving_variance/local_step/read (Identity) /device:GPU:0
+  fire7/dw_bn/AssignMovingAvg_1/AssignSub (AssignSub) /device:GPU:0
+  fire7/dw_bn/AssignMovingAvg_1/AssignAdd (AssignAdd) /device:GPU:0
+  fire7/dw_bn/AssignMovingAvg_1 (Assign) /device:GPU:0
+  save/Assign_150 (Assign) /device:GPU:0
+  save/Assign_151 (Assign) /device:GPU:0
+  save/Assign_155 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.730021: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Fill: CPU XLA_CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+ApplyMomentum: CPU 
+Add: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+TruncatedNormal: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire7/conv1x1/kernels/Initializer/truncated_normal/shape (Const) 
+  fire7/conv1x1/kernels/Initializer/truncated_normal/mean (Const) 
+  fire7/conv1x1/kernels/Initializer/truncated_normal/stddev (Const) 
+  fire7/conv1x1/kernels/Initializer/truncated_normal/TruncatedNormal (TruncatedNormal) 
+  fire7/conv1x1/kernels/Initializer/truncated_normal/mul (Mul) 
+  fire7/conv1x1/kernels/Initializer/truncated_normal (Add) 
+  fire7/conv1x1/kernels (VariableV2) /device:GPU:0
+  fire7/conv1x1/kernels/Assign (Assign) /device:GPU:0
+  fire7/conv1x1/kernels/read (Identity) /device:GPU:0
+  fire7/conv1x1/kernels/Momentum/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  fire7/conv1x1/kernels/Momentum/Initializer/zeros/Const (Const) /device:GPU:0
+  fire7/conv1x1/kernels/Momentum/Initializer/zeros (Fill) /device:GPU:0
+  fire7/conv1x1/kernels/Momentum (VariableV2) /device:GPU:0
+  fire7/conv1x1/kernels/Momentum/Assign (Assign) /device:GPU:0
+  fire7/conv1x1/kernels/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire7/conv1x1/kernels/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_144 (Assign) /device:GPU:0
+  save/Assign_145 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.730153: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire7/1x1_bn/beta/Initializer/Const (Const) 
+  fire7/1x1_bn/beta (VariableV2) /device:GPU:0
+  fire7/1x1_bn/beta/Assign (Assign) /device:GPU:0
+  fire7/1x1_bn/beta/read (Identity) /device:GPU:0
+  fire7/1x1_bn/beta/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire7/1x1_bn/beta/Momentum (VariableV2) /device:GPU:0
+  fire7/1x1_bn/beta/Momentum/Assign (Assign) /device:GPU:0
+  fire7/1x1_bn/beta/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire7/1x1_bn/beta/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_134 (Assign) /device:GPU:0
+  save/Assign_135 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.730247: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyMomentum: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire7/1x1_bn/gamma/Initializer/Const (Const) 
+  fire7/1x1_bn/gamma (VariableV2) /device:GPU:0
+  fire7/1x1_bn/gamma/Assign (Assign) /device:GPU:0
+  fire7/1x1_bn/gamma/read (Identity) /device:GPU:0
+  fire7/1x1_bn/gamma/Momentum/Initializer/zeros (Const) /device:GPU:0
+  fire7/1x1_bn/gamma/Momentum (VariableV2) /device:GPU:0
+  fire7/1x1_bn/gamma/Momentum/Assign (Assign) /device:GPU:0
+  fire7/1x1_bn/gamma/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_fire7/1x1_bn/gamma/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign_140 (Assign) /device:GPU:0
+  save/Assign_141 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.730387: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire7/1x1_bn/moving_mean/Initializer/Const (Const) 
+  fire7/1x1_bn/moving_mean (VariableV2) /device:GPU:0
+  fire7/1x1_bn/moving_mean/Assign (Assign) /device:GPU:0
+  fire7/1x1_bn/moving_mean/read (Identity) /device:GPU:0
+  fire7/1x1_bn/fire7/1x1_bn/moving_mean/biased/Initializer/zeros (Const) /device:GPU:0
+  fire7/1x1_bn/fire7/1x1_bn/moving_mean/biased (VariableV2) /device:GPU:0
+  fire7/1x1_bn/fire7/1x1_bn/moving_mean/biased/Assign (Assign) /device:GPU:0
+  fire7/1x1_bn/fire7/1x1_bn/moving_mean/biased/read (Identity) /device:GPU:0
+  fire7/1x1_bn/fire7/1x1_bn/moving_mean/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire7/1x1_bn/fire7/1x1_bn/moving_mean/local_step (VariableV2) /device:GPU:0
+  fire7/1x1_bn/fire7/1x1_bn/moving_mean/local_step/Assign (Assign) /device:GPU:0
+  fire7/1x1_bn/fire7/1x1_bn/moving_mean/local_step/read (Identity) /device:GPU:0
+  fire7/1x1_bn/AssignMovingAvg/AssignSub (AssignSub) /device:GPU:0
+  fire7/1x1_bn/AssignMovingAvg/AssignAdd (AssignAdd) /device:GPU:0
+  fire7/1x1_bn/AssignMovingAvg (Assign) /device:GPU:0
+  save/Assign_136 (Assign) /device:GPU:0
+  save/Assign_137 (Assign) /device:GPU:0
+  save/Assign_142 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.730490: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+AssignSub: CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  fire7/1x1_bn/moving_variance/Initializer/Const (Const) 
+  fire7/1x1_bn/moving_variance (VariableV2) /device:GPU:0
+  fire7/1x1_bn/moving_variance/Assign (Assign) /device:GPU:0
+  fire7/1x1_bn/moving_variance/read (Identity) /device:GPU:0
+  fire7/1x1_bn/fire7/1x1_bn/moving_variance/biased/Initializer/zeros (Const) /device:GPU:0
+  fire7/1x1_bn/fire7/1x1_bn/moving_variance/biased (VariableV2) /device:GPU:0
+  fire7/1x1_bn/fire7/1x1_bn/moving_variance/biased/Assign (Assign) /device:GPU:0
+  fire7/1x1_bn/fire7/1x1_bn/moving_variance/biased/read (Identity) /device:GPU:0
+  fire7/1x1_bn/fire7/1x1_bn/moving_variance/local_step/Initializer/zeros (Const) /device:GPU:0
+  fire7/1x1_bn/fire7/1x1_bn/moving_variance/local_step (VariableV2) /device:GPU:0
+  fire7/1x1_bn/fire7/1x1_bn/moving_variance/local_step/Assign (Assign) /device:GPU:0
+  fire7/1x1_bn/fire7/1x1_bn/moving_variance/local_step/read (Identity) /device:GPU:0
+  fire7/1x1_bn/AssignMovingAvg_1/AssignSub (AssignSub) /device:GPU:0
+  fire7/1x1_bn/AssignMovingAvg_1/AssignAdd (AssignAdd) /device:GPU:0
+  fire7/1x1_bn/AssignMovingAvg_1 (Assign) /device:GPU:0
+  save/Assign_138 (Assign) /device:GPU:0
+  save/Assign_139 (Assign) /device:GPU:0
+  save/Assign_143 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.730617: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Fill: CPU XLA_CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+ApplyMomentum: CPU 
+Add: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+TruncatedNormal: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  conv12/kernels/Initializer/truncated_normal/shape (Const) 
+  conv12/kernels/Initializer/truncated_normal/mean (Const) 
+  conv12/kernels/Initializer/truncated_normal/stddev (Const) 
+  conv12/kernels/Initializer/truncated_normal/TruncatedNormal (TruncatedNormal) 
+  conv12/kernels/Initializer/truncated_normal/mul (Mul) 
+  conv12/kernels/Initializer/truncated_normal (Add) 
+  conv12/kernels (VariableV2) /device:GPU:0
+  conv12/kernels/Assign (Assign) /device:GPU:0
+  conv12/kernels/read (Identity) /device:GPU:0
+  conv12/kernels/Momentum/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  conv12/kernels/Momentum/Initializer/zeros/Const (Const) /device:GPU:0
+  conv12/kernels/Momentum/Initializer/zeros (Fill) /device:GPU:0
+  conv12/kernels/Momentum (VariableV2) /device:GPU:0
+  conv12/kernels/Momentum/Assign (Assign) /device:GPU:0
+  conv12/kernels/Momentum/read (Identity) /device:GPU:0
+  Momentum/update_conv12/kernels/ApplyMomentum (ApplyMomentum) /device:GPU:0
+  save/Assign (Assign) /device:GPU:0
+  save/Assign_1 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.731193: W tensorflow/core/common_runtime/colocation_graph.cc:1016] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AssignAdd: CPU 
+Const: CPU XLA_CPU 
+Assign: CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  global_step (VariableV2) /device:GPU:0
+  global_step/Assign (Assign) /device:GPU:0
+  global_step/read (Identity) /device:GPU:0
+  Momentum/value (Const) /device:GPU:0
+  Momentum (AssignAdd) /device:GPU:0
+  save/Assign_158 (Assign) /device:GPU:0
+
+2021-04-16 15:44:16.897175: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From ../src/train.py:255: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+W0416 15:44:16.912524 140043217524544 deprecation_wrapper.py:119] From ../src/train.py:255: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+WARNING:tensorflow:From ../src/train.py:268: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+W0416 15:44:17.371611 140043217524544 deprecation.py:323] From ../src/train.py:268: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+self.preds: Tensor("conv12/convolution:0", shape=(20, 14, 14, 42), dtype=float32, device=/device:GPU:0)
+ANCHOR_PER_GRID: 7
+CLASSES: 1
+preds2: Tensor("interpret_output/strided_slice:0", shape=(20, 14, 14, 7), dtype=float32, device=/device:GPU:0)
+ANCHORS: 1372
+max person: 22
+Model statistics saved to ./logs/train2/model_metrics.txt.
+conf_loss: 26.482681274414062, bbox_loss: 11.459746360778809, class_loss: 0.0
+2021-04-16 15:44:20.827019: step 0, loss = 37.94 (5.8 images/sec; 3.455 sec/batch)
+conf_loss: 9.281953811645508, bbox_loss: 2.688990831375122, class_loss: 0.0
+2021-04-16 15:44:38.131883: step 10, loss = 11.97 (8.6 images/sec; 2.323 sec/batch)
+conf_loss: 1.2692917585372925, bbox_loss: 1.2438105344772339, class_loss: 0.0
+2021-04-16 15:44:52.542904: step 20, loss = 2.51 (8.8 images/sec; 2.276 sec/batch)
+conf_loss: 1.0045374631881714, bbox_loss: 1.106106162071228, class_loss: 0.0
+2021-04-16 15:45:06.935379: step 30, loss = 2.11 (9.0 images/sec; 2.230 sec/batch)
+conf_loss: 1.2506153583526611, bbox_loss: 0.7698847055435181, class_loss: 0.0
+2021-04-16 15:45:21.566979: step 40, loss = 2.02 (9.1 images/sec; 2.200 sec/batch)
+conf_loss: 1.1933269500732422, bbox_loss: 0.8663556575775146, class_loss: 0.0
+2021-04-16 15:45:35.877872: step 50, loss = 2.06 (9.3 images/sec; 2.146 sec/batch)
+WARNING:tensorflow:From /home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorflow/python/training/saver.py:960: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+W0416 15:45:35.881623 140043217524544 deprecation.py:323] From /home/shubhamjoshi/tensorflow/lib/python3.6/site-packages/tensorflow/python/training/saver.py:960: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+conf_loss: 1.198443055152893, bbox_loss: 0.7727348208427429, class_loss: 0.0
+2021-04-16 15:45:50.306922: step 60, loss = 1.97 (9.0 images/sec; 2.235 sec/batch)
+conf_loss: 1.1567108631134033, bbox_loss: 0.8575048446655273, class_loss: 0.0
+2021-04-16 15:46:04.676531: step 70, loss = 2.01 (9.2 images/sec; 2.169 sec/batch)
+conf_loss: 0.938386082649231, bbox_loss: 1.1822340488433838, class_loss: 0.0
+2021-04-16 15:46:19.104048: step 80, loss = 2.12 (9.1 images/sec; 2.200 sec/batch)
+conf_loss: 1.1393959522247314, bbox_loss: 0.9469209313392639, class_loss: 0.0
+2021-04-16 15:46:33.460463: step 90, loss = 2.09 (9.3 images/sec; 2.142 sec/batch)
