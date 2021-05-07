@@ -111,7 +111,7 @@ def train():
     with tf.Graph().as_default():
 
         assert FLAGS.net == 'vgg16' or FLAGS.net == 'resnet50' or FLAGS.net == 'tinyYolo'  \
-               or FLAGS.net == 'squeezeDet' or FLAGS.net == 'squeezeDet+', \
+               or FLAGS.net == 'squeezeDet' or FLAGS.net == 'squeezeDet+', or FLAGS.net == 'tinyyolo'\
             'Selected neural net architecture not supported: {}'.format(FLAGS.net)
         if FLAGS.net == 'vgg16':
             mc = kitti_vgg16_config()
