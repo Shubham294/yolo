@@ -2080,7 +2080,7 @@
 			"target_network": "tinyyolo",
 			"target_framework": "TensorFlow",
 			"target_framework_version": "1.14.0",
-			"sensAI_version": "['V3.1']",
+			"sensAI_version": "['V3.0','V3.1','V4.0']",
 			"dataset_type": "KITTI",
 			"other_param": ""
 		},
