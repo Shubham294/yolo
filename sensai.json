@@ -4,9 +4,10 @@
         "type":"dropdown",
         "options":{
             "v3.0":"latticesemi/sensai:v3.0",
-            "v3.1":"latticesemi/sensai:v3.1"
+            "v3.1":"latticesemi/sensai:v3.1",
+            "v4.0":"latticesemi/sensai:v4.0"
         },
-        "default":"v3.0",
+        "default":"v4.0",
         "required":true
     },
     "sensai_options":{
